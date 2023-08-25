@@ -1,0 +1,520 @@
+{
+  "ญี่ปุ่น": {
+    "mushroom": 346,
+    "uniThai": 465,
+    "thaiTravelCenter": 10,
+    "nidNoi": 403,
+    "nextTripHoliday": 243,
+    "tourPro": 507
+  },
+  "เกาหลี": {
+    "mushroom": 58,
+    "uniThai": 2,
+    "thaiTravelCenter": 30,
+    "nextTripHoliday": 45,
+    "tourPro": 99
+  },
+  "ฮ่องกง": {
+    "mushroom": 104,
+    "uniThai": 200,
+    "thaiTravelCenter": 92,
+    "nidNoi": 110,
+    "nextTripHoliday": 100,
+    "tourPro": 147
+  },
+  "มาเก๊า": {
+    "mushroom": 17,
+    "uniThai": 35,
+    "thaiTravelCenter": 1,
+    "nidNoi": 28,
+    "nextTripHoliday": 18,
+    "tourPro": 31
+  },
+  "จีน": {
+    "mushroom": 193,
+    "uniThai": 272,
+    "thaiTravelCenter": 127,
+    "nidNoi": 228,
+    "nextTripHoliday": 124,
+    "tourPro": 275
+  },
+  "ไต้หวัน": {
+    "mushroom": 71,
+    "uniThai": 102,
+    "thaiTravelCenter": 51,
+    "nidNoi": 77,
+    "nextTripHoliday": 60,
+    "tourPro": 86
+  },
+  "เวียดนาม": {
+    "mushroom": 136,
+    "uniThai": 227,
+    "thaiTravelCenter": 116,
+    "nidNoi": 168,
+    "nextTripHoliday": 152,
+    "tourPro": 175
+  },
+  "พม่า": {
+    "mushroom": 29,
+    "thaiTravelCenter": 14,
+    "nidNoi": 37,
+    "nextTripHoliday": 38,
+    "tourPro": 40
+  },
+  "สิงคโปร์": {
+    "mushroom": 33,
+    "uniThai": 14,
+    "thaiTravelCenter": 30,
+    "nidNoi": 44,
+    "nextTripHoliday": 21,
+    "tourPro": 29
+  },
+  "อินเดีย": {
+    "mushroom": 20,
+    "uniThai": 46,
+    "thaiTravelCenter": 14,
+    "nidNoi": 46,
+    "nextTripHoliday": 17,
+    "tourPro": 29
+  },
+  "ลาว": {
+    "mushroom": 8,
+    "uniThai": 32,
+    "thaiTravelCenter": 5,
+    "nidNoi": 15,
+    "nextTripHoliday": 7,
+    "tourPro": 9
+  },
+  "บาหลี": {
+    "mushroom": 10,
+    "nextTripHoliday": 1
+  },
+  "มาเลเซีย": {
+    "mushroom": 10,
+    "uniThai": 21,
+    "thaiTravelCenter": 8,
+    "nidNoi": 12,
+    "nextTripHoliday": 7,
+    "tourPro": 7
+  },
+  "กัมพูชา": {
+    "mushroom": 1,
+    "nidNoi": 3,
+    "nextTripHoliday": 1
+  },
+  "ดูไบ": {
+    "mushroom": 4,
+    "nidNoi": 5,
+    "nextTripHoliday": 2,
+    "tourPro": 4
+  },
+  "ภูฏาน": {
+    "mushroom": 1,
+    "nidNoi": 1,
+    "nextTripHoliday": 1,
+    "tourPro": 0
+  },
+  "เนปาล": {
+    "mushroom": 3,
+    "uniThai": 4,
+    "nidNoi": 3,
+    "nextTripHoliday": 2,
+    "tourPro": 7
+  },
+  "มองโกเลีย": {
+    "mushroom": 0,
+    "uniThai": 1,
+    "nidNoi": 1,
+    "tourPro": 0
+  },
+  "ฟิลิปปินส์": {
+    "mushroom": 1,
+    "uniThai": 2,
+    "nidNoi": 2,
+    "nextTripHoliday": 0,
+    "tourPro": 2
+  },
+  "ยุโรป": {
+    "uniThai": 514,
+    "thaiTravelCenter": 193
+  },
+  "บรูไน": {
+    "uniThai": 2,
+    "nidNoi": 0,
+    "nextTripHoliday": 0
+  },
+  "รัสเซีย": {
+    "uniThai": 36,
+    "thaiTravelCenter": 26,
+    "nidNoi": 27,
+    "nextTripHoliday": 15,
+    "tourPro": 30
+  },
+  "ตุรกี": {
+    "uniThai": 50,
+    "thaiTravelCenter": 22,
+    "nidNoi": 41,
+    "nextTripHoliday": 20
+  },
+  "จอร์เจีย": {
+    "uniThai": 3,
+    "thaiTravelCenter": 22,
+    "nidNoi": 49,
+    "nextTripHoliday": 21,
+    "tourPro": 35
+  },
+  "กรีซ": {
+    "uniThai": 2,
+    "nidNoi": 5,
+    "nextTripHoliday": 1,
+    "tourPro": 4
+  },
+  "อิสราเอล": {
+    "uniThai": 2,
+    "nidNoi": 0,
+    "nextTripHoliday": 0,
+    "tourPro": 0
+  },
+  "ไซปรัส": {
+    "uniThai": 2
+  },
+  "สวิตเซอร์แลนด์": {
+    "uniThai": 356,
+    "nidNoi": 142,
+    "nextTripHoliday": 61,
+    "tourPro": 133
+  },
+  "ฝรั่งเศส": {
+    "uniThai": 207,
+    "nidNoi": 103,
+    "nextTripHoliday": 49,
+    "tourPro": 102
+  },
+  "อิตาลี": {
+    "uniThai": 237,
+    "nidNoi": 98,
+    "nextTripHoliday": 34,
+    "tourPro": 87
+  },
+  "เยอรมนี": {
+    "uniThai": 271
+  },
+  "ออสเตรีย": {
+    "uniThai": 222,
+    "nidNoi": 73,
+    "nextTripHoliday": 24,
+    "tourPro": 71
+  },
+  "เนเธอร์แลนด์": {
+    "uniThai": 27,
+    "nidNoi": 18,
+    "tourPro": 22
+  },
+  "ออสเตรเลีย": {
+    "uniThai": 2,
+    "thaiTravelCenter": 5,
+    "nidNoi": 5,
+    "nextTripHoliday": 0,
+    "tourPro": 7
+  },
+  "เบลเยี่ยม": {
+    "uniThai": 20
+  },
+  "สหรัฐอาหรับเอมิเรต": {
+    "uniThai": 2
+  },
+  "เช็ก": {
+    "uniThai": 118
+  },
+  "สโลวัก": {
+    "uniThai": 91
+  },
+  "ฮังการี": {
+    "uniThai": 86,
+    "nidNoi": 33
+  },
+  "มอลตา": {
+    "uniThai": 9,
+    "tourPro": 1
+  },
+  "โมนาโค": {
+    "uniThai": 1
+  },
+  "สเปน": {
+    "uniThai": 12,
+    "nidNoi": 15,
+    "nextTripHoliday": 1,
+    "tourPro": 13
+  },
+  "อันดอร์รา": {
+    "uniThai": 3
+  },
+  "ในประเทศ": {
+    "uniThai": 1
+  },
+  "อินโดนีเซีย": {
+    "uniThai": 13,
+    "tourPro": 9
+  },
+  "อังกฤษ": {
+    "uniThai": 31,
+    "nidNoi": 15,
+    "nextTripHoliday": 7,
+    "tourPro": 20
+  },
+  "เดนมาร์ค": {
+    "uniThai": 37
+  },
+  "ลักเซมเบิร์ก": {
+    "uniThai": 6,
+    "nidNoi": 6
+  },
+  "สโลวีเนีย": {
+    "uniThai": 4,
+    "tourPro": 3
+  },
+  "โครเอเชีย": {
+    "uniThai": 2,
+    "nidNoi": 6,
+    "nextTripHoliday": 1,
+    "tourPro": 6
+  },
+  "ฟินแลนด์": {
+    "uniThai": 23,
+    "nidNoi": 13,
+    "nextTripHoliday": 3,
+    "tourPro": 11
+  },
+  "สวีเดน": {
+    "uniThai": 37,
+    "nidNoi": 21,
+    "tourPro": 17
+  },
+  "นอร์เวย์": {
+    "uniThai": 38,
+    "nidNoi": 27,
+    "nextTripHoliday": 13,
+    "tourPro": 21
+  },
+  "เอสโตเนีย": {
+    "uniThai": 1
+  },
+  "เอเชีย": {
+    "thaiTravelCenter": 22
+  },
+  "นิวซีแลนด์": {
+    "thaiTravelCenter": 6,
+    "nidNoi": 4,
+    "nextTripHoliday": 0,
+    "tourPro": 3
+  },
+  "ตะวันออกกลาง": {
+    "thaiTravelCenter": 14
+  },
+  "อเมริกา": {
+    "thaiTravelCenter": 13,
+    "nidNoi": 16
+  },
+  "มัลดีฟส์": {
+    "thaiTravelCenter": 20,
+    "nidNoi": 17,
+    "nextTripHoliday": 0,
+    "tourPro": 0
+  },
+  "อียิปต์": {
+    "thaiTravelCenter": 13,
+    "nidNoi": 21,
+    "nextTripHoliday": 14,
+    "tourPro": 16
+  },
+  "แอฟริกา": {
+    "thaiTravelCenter": 11,
+    "nidNoi": 9
+  },
+  "อเมริกาใต้": {
+    "thaiTravelCenter": 6
+  },
+  "เกาหลีใต้": {
+    "nidNoi": 83
+  },
+  "เยอรมัน": {
+    "nidNoi": 81,
+    "nextTripHoliday": 36,
+    "tourPro": 79
+  },
+  "สาธารณรัฐเช็ก": {
+    "nidNoi": 44
+  },
+  "เดนมาร์ก": {
+    "nidNoi": 23
+  },
+  "เบลเยียม": {
+    "nidNoi": 17
+  },
+  "โปรตุเกส": {
+    "nidNoi": 7,
+    "tourPro": 6
+  },
+  "โปแลนด์": {
+    "nidNoi": 1
+  },
+  "ลัตเวีย": {
+    "nidNoi": 2
+  },
+  "ลิทัวเนีย": {
+    "nidNoi": 2
+  },
+  "สโลวาเกีย": {
+    "nidNoi": 34
+  },
+  "ไอซ์แลนด์": {
+    "nidNoi": 4,
+    "tourPro": 7
+  },
+  "สแกนดิเนเวีย": {
+    "nidNoi": 39,
+    "nextTripHoliday": 18
+  },
+  "อาร์เมเนีย": {
+    "nidNoi": 2
+  },
+  "เม็กซิโก": {
+    "nidNoi": 3,
+    "tourPro": 1
+  },
+  "อินโดนีเชียบาหลี": {
+    "nidNoi": 7
+  },
+  "จอร์แดน": {
+    "nidNoi": 8,
+    "nextTripHoliday": 3,
+    "tourPro": 7
+  },
+  "บราซิล": {
+    "nidNoi": 4,
+    "nextTripHoliday": 0
+  },
+  "อิหร่าน": {
+    "nidNoi": 5,
+    "nextTripHoliday": 1,
+    "tourPro": 5
+  },
+  "โมร็อกโก": {
+    "nidNoi": 4
+  },
+  "ศรีลังกา": {
+    "nidNoi": 3,
+    "nextTripHoliday": 0
+  },
+  "เคนยา": {
+    "nidNoi": 0
+  },
+  "กาลาปากอส": {
+    "nidNoi": 0
+  },
+  "ล่องเรือ": {
+    "nidNoi": 0
+  },
+  "เยเมน": {
+    "nidNoi": 0
+  },
+  "แอฟริกาใต้": {
+    "nidNoi": 2,
+    "nextTripHoliday": 0,
+    "tourPro": 1
+  },
+  "แอลจีเรีย": {
+    "nidNoi": 2
+  },
+  "ตูนิเซีย": {
+    "nidNoi": 1
+  },
+  "ลิเบีย": {
+    "nidNoi": 1
+  },
+  "อิรัก": {
+    "nidNoi": 1
+  },
+  "คูเวต": {
+    "nidNoi": 1
+  },
+  "กาตาร์": {
+    "nidNoi": 1
+  },
+  "บาห์เรน": {
+    "nidNoi": 1
+  },
+  "โอมาน": {
+    "nidNoi": 1,
+    "nextTripHoliday": 0
+  },
+  "อินโดเนเซีย": {
+    "nextTripHoliday": 6
+  },
+  "ไทย": {
+    "nextTripHoliday": 0
+  },
+  "เนเธอแลนด์": {
+    "nextTripHoliday": 6
+  },
+  "โมรอคโค": {
+    "nextTripHoliday": 1,
+    "tourPro": 4
+  },
+  "อุซเบกิสถาน": {
+    "nextTripHoliday": 0
+  },
+  "คาซัคสถาน": {
+    "nextTripHoliday": 0
+  },
+  "ปากีสถาน": {
+    "nextTripHoliday": 0,
+    "tourPro": 5
+  },
+  "ตรุกี": {
+    "nextTripHoliday": 20
+  },
+  "สหรัฐอเมริกา": {
+    "nextTripHoliday": 0,
+    "tourPro": 2
+  },
+  "แคนนาดา": {
+    "nextTripHoliday": 1
+  },
+  "ยุโรปตะวันออก": {
+    "tourPro": 102
+  },
+  "โรมาเนีย": {
+    "tourPro": 0
+  },
+  "สแกนดิเนเวีย/บอลติค": {
+    "tourPro": 0
+  },
+  "สก๊อตเเลนด์": {
+    "tourPro": 5
+  },
+  "กรีนแลนด์": {
+    "tourPro": 1
+  },
+  "บอสเนีย": {
+    "tourPro": 2
+  },
+  "บัลแกเรีย": {
+    "tourPro": 0
+  },
+  "แคนาดา": {
+    "tourPro": 7
+  },
+  "ซาอุดิอาระเบีย": {
+    "tourPro": 1
+  },
+  "ตุรเคีย": {
+    "tourPro": 37
+  },
+  "คิวบา": {
+    "tourPro": 2
+  },
+  "อาเซอร์ไบจาน": {
+    "tourPro": 0
+  }
+}
