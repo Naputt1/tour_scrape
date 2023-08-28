@@ -1,0 +1,218 @@
+{
+  "ฮ่องกง": {
+    "amount": 101,
+    "link": "https://www.nexttripholiday.com/hong-kong/"
+  },
+  "ญี่ปุ่น": {
+    "amount": 244,
+    "link": "https://www.nexttripholiday.com/japan/"
+  },
+  "เกาหลี": {
+    "amount": 45,
+    "link": "https://www.nexttripholiday.com/korea/"
+  },
+  "เวียดนาม": {
+    "amount": 150,
+    "link": "https://www.nexttripholiday.com/vietnam/"
+  },
+  "จีน": {
+    "amount": 127,
+    "link": "https://www.nexttripholiday.com/china/"
+  },
+  "มาเก๊า": {
+    "amount": 19,
+    "link": "https://www.nexttripholiday.com/macau/"
+  },
+  "ไต้หวัน": {
+    "amount": 61,
+    "link": "https://www.nexttripholiday.com/taiwan/"
+  },
+  "สิงคโปร์": {
+    "amount": 21,
+    "link": "https://www.nexttripholiday.com/singapore/"
+  },
+  "พม่า": {
+    "amount": 36,
+    "link": "https://www.nexttripholiday.com/myanmar/"
+  },
+  "อินโดเนเซีย": {
+    "amount": 6,
+    "link": "https://www.nexttripholiday.com/indonesia/"
+  },
+  "บาหลี": {
+    "amount": 1,
+    "link": "https://www.nexttripholiday.com/indonesia-bali/"
+  },
+  "อินเดีย": {
+    "amount": 17,
+    "link": "https://www.nexttripholiday.com/india/"
+  },
+  "ลาว": {
+    "amount": 8,
+    "link": "https://www.nexttripholiday.com/laos/"
+  },
+  "มัลดีฟส์": {
+    "amount": 0,
+    "link": "https://www.nexttripholiday.com/maldives/"
+  },
+  "มาเลเซีย": {
+    "amount": 7,
+    "link": "https://www.nexttripholiday.com/malaysia/"
+  },
+  "เนปาล": {
+    "amount": 2,
+    "link": "https://www.nexttripholiday.com/nepal/"
+  },
+  "กัมพูชา": {
+    "amount": 1,
+    "link": "https://www.nexttripholiday.com/cambodia/"
+  },
+  "ศรีลังกา": {
+    "amount": 0,
+    "link": "https://www.nexttripholiday.com/sri-lanka/"
+  },
+  "บรูไน": {
+    "amount": 0,
+    "link": "https://www.nexttripholiday.com/brunei/"
+  },
+  "ภูฏาน": {
+    "amount": 1,
+    "link": "https://www.nexttripholiday.com/bhutan/"
+  },
+  "ฟิลิปปินส์": {
+    "amount": 0,
+    "link": "https://www.nexttripholiday.com/philippines/"
+  },
+  "ไทย": {
+    "amount": 0,
+    "link": "https://www.nexttripholiday.com/thailand/"
+  },
+  "[object Promise]": {
+    "amount": 0,
+    "link": null
+  },
+  "สวิตเซอร์แลนด์": {
+    "amount": 62,
+    "link": "https://www.nexttripholiday.com/switzerland/"
+  },
+  "รัสเซีย": {
+    "amount": 15,
+    "link": "https://www.nexttripholiday.com/russia/"
+  },
+  "ตุรกี": {
+    "amount": 20,
+    "link": "https://www.nexttripholiday.com/turkey/"
+  },
+  "ฝรั่งเศส": {
+    "amount": 50,
+    "link": "https://www.nexttripholiday.com/france/"
+  },
+  "อิตาลี": {
+    "amount": 34,
+    "link": "https://www.nexttripholiday.com/italy/"
+  },
+  "เยอรมัน": {
+    "amount": 36,
+    "link": "https://www.nexttripholiday.com/germany/"
+  },
+  "เนเธอแลนด์": {
+    "amount": 7,
+    "link": "https://www.nexttripholiday.com/netherlands/"
+  },
+  "สเปน": {
+    "amount": 1,
+    "link": "https://www.nexttripholiday.com/spain/"
+  },
+  "ออสเตรีย": {
+    "amount": 24,
+    "link": "https://www.nexttripholiday.com/austria/"
+  },
+  "โครเอเชีย": {
+    "amount": 1,
+    "link": "https://www.nexttripholiday.com/croatia/"
+  },
+  "นอร์เวย์": {
+    "amount": 13,
+    "link": "https://www.nexttripholiday.com/norway/"
+  },
+  "อังกฤษ": {
+    "amount": 7,
+    "link": "https://www.nexttripholiday.com/england/"
+  },
+  "กรีซ": {
+    "amount": 1,
+    "link": "https://www.nexttripholiday.com/greece/"
+  },
+  "ฟินแลนด์": {
+    "amount": 3,
+    "link": "https://www.nexttripholiday.com/finland/"
+  },
+  "จอร์แดน": {
+    "amount": 3,
+    "link": "https://www.nexttripholiday.com/jordan/"
+  },
+  "อียิปต์": {
+    "amount": 14,
+    "link": "https://www.nexttripholiday.com/egypt/"
+  },
+  "โมรอคโค": {
+    "amount": 1,
+    "link": "https://www.nexttripholiday.com/morocco/"
+  },
+  "อุซเบกิสถาน": {
+    "amount": 0,
+    "link": "https://www.nexttripholiday.com/uzbekistan/"
+  },
+  "อิหร่าน": {
+    "amount": 1,
+    "link": "https://www.nexttripholiday.com/iran/"
+  },
+  "คาซัคสถาน": {
+    "amount": 0,
+    "link": "https://www.nexttripholiday.com/kazakhstan/"
+  },
+  "ปากีสถาน": {
+    "amount": 0,
+    "link": "https://www.nexttripholiday.com/pakistan/"
+  },
+  "อิสราเอล": {
+    "amount": 0,
+    "link": "https://www.nexttripholiday.com/israel/"
+  },
+  "แอฟริกาใต้": {
+    "amount": 0,
+    "link": "https://www.nexttripholiday.com/southern-africa/"
+  },
+  "โอมาน": {
+    "amount": 0,
+    "link": "https://www.nexttripholiday.com/oman/"
+  },
+  "ตรุกี": {
+    "amount": 20,
+    "link": "https://www.nexttripholiday.com/turkey/"
+  },
+  "จอร์เจีย": {
+    "amount": 24,
+    "link": "https://www.nexttripholiday.com/georgia/"
+  },
+  "สหรัฐอเมริกา": {
+    "amount": 0,
+    "link": "https://www.nexttripholiday.com/united-states/"
+  },
+  "แคนนาดา": {
+    "amount": 1,
+    "link": "https://www.nexttripholiday.com/canada"
+  },
+  "บราซิล": {
+    "amount": 0,
+    "link": "https://www.nexttripholiday.com/brazil/"
+  },
+  "ออสเตรเลีย": {
+    "amount": 0,
+    "link": "https://www.nexttripholiday.com/australia/"
+  },
+  "นิวซีแลนด์": {
+    "amount": 0,
+    "link": "https://www.nexttripholiday.com/new-zealand/"
+  }
+}

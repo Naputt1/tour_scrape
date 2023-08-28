@@ -1,0 +1,302 @@
+{
+  "ญี่ปุ่น": {
+    "amount": 403,
+    "link": "https://www.nidnoitravel.com/japan/"
+  },
+  "เกาหลีใต้": {
+    "amount": 83,
+    "link": "https://www.nidnoitravel.com/korea/"
+  },
+  "จีน": {
+    "amount": 232,
+    "link": "https://www.nidnoitravel.com/china/"
+  },
+  "ฮ่องกง": {
+    "amount": 112,
+    "link": "https://www.nidnoitravel.com/hong-kong/"
+  },
+  "ไต้หวัน": {
+    "amount": 77,
+    "link": "https://www.nidnoitravel.com/taiwan/"
+  },
+  "พม่า": {
+    "amount": 37,
+    "link": "https://www.nidnoitravel.com/myanmar/"
+  },
+  "เวียดนาม": {
+    "amount": 168,
+    "link": "https://www.nidnoitravel.com/vietnam/"
+  },
+  "อิตาลี": {
+    "amount": 99,
+    "link": "https://www.nidnoitravel.com/italy/"
+  },
+  "สวิตเซอร์แลนด์": {
+    "amount": 143,
+    "link": "https://www.nidnoitravel.com/switzerland/"
+  },
+  "เยอรมัน": {
+    "amount": 81,
+    "link": "https://www.nidnoitravel.com/germany/"
+  },
+  "สาธารณรัฐเช็ก": {
+    "amount": 44,
+    "link": "https://www.nidnoitravel.com/czech-republic/"
+  },
+  "ออสเตรีย": {
+    "amount": 73,
+    "link": "https://www.nidnoitravel.com/austria/"
+  },
+  "ฝรั่งเศส": {
+    "amount": 103,
+    "link": "https://www.nidnoitravel.com/france/"
+  },
+  "นอร์เวย์": {
+    "amount": 27,
+    "link": "https://www.nidnoitravel.com/norway/"
+  },
+  "สวีเดน": {
+    "amount": 21,
+    "link": "https://www.nidnoitravel.com/sweden/"
+  },
+  "เดนมาร์ก": {
+    "amount": 23,
+    "link": "https://www.nidnoitravel.com/denmark/"
+  },
+  "โครเอเชีย": {
+    "amount": 6,
+    "link": "https://www.nidnoitravel.com/croatia/"
+  },
+  "กรีซ": {
+    "amount": 5,
+    "link": "https://www.nidnoitravel.com/greece/"
+  },
+  "เนเธอร์แลนด์": {
+    "amount": 18,
+    "link": "https://www.nidnoitravel.com/netherlands/"
+  },
+  "เบลเยียม": {
+    "amount": 17,
+    "link": "https://www.nidnoitravel.com/belgium/"
+  },
+  "โปรตุเกส": {
+    "amount": 7,
+    "link": "https://www.nidnoitravel.com/portugal/"
+  },
+  "สเปน": {
+    "amount": 15,
+    "link": "https://www.nidnoitravel.com/spain/"
+  },
+  "โปแลนด์": {
+    "amount": 1,
+    "link": "https://www.nidnoitravel.com/poland/"
+  },
+  "ฟินแลนด์": {
+    "amount": 13,
+    "link": "https://www.nidnoitravel.com/finland/"
+  },
+  "ลักเซมเบิร์ก": {
+    "amount": 6,
+    "link": "https://www.nidnoitravel.com/luxembourg/"
+  },
+  "ลัตเวีย": {
+    "amount": 2,
+    "link": "https://www.nidnoitravel.com/latvia/"
+  },
+  "ลิทัวเนีย": {
+    "amount": 2,
+    "link": "https://www.nidnoitravel.com/lithuania/"
+  },
+  "สโลวาเกีย": {
+    "amount": 34,
+    "link": "https://www.nidnoitravel.com/slovakia/"
+  },
+  "ไอซ์แลนด์": {
+    "amount": 4,
+    "link": "https://www.nidnoitravel.com/iceland/"
+  },
+  "ฮังการี": {
+    "amount": 33,
+    "link": "https://www.nidnoitravel.com/hungary/"
+  },
+  "อินเดีย": {
+    "amount": 46,
+    "link": "https://www.nidnoitravel.com/india/"
+  },
+  "มัลดีฟส์": {
+    "amount": 17,
+    "link": "https://www.nidnoitravel.com/maldives/"
+  },
+  "ดูไบ": {
+    "amount": 5,
+    "link": "https://www.nidnoitravel.com/dubai/"
+  },
+  "สแกนดิเนเวีย": {
+    "amount": 39,
+    "link": "https://www.nidnoitravel.com/scandinavia/"
+  },
+  "อาร์เมเนีย": {
+    "amount": 2,
+    "link": "https://www.nidnoitravel.com/armenia/"
+  },
+  "จอร์เจีย": {
+    "amount": 49,
+    "link": "https://www.nidnoitravel.com/georgia/"
+  },
+  "เม็กซิโก": {
+    "amount": 3,
+    "link": "https://www.nidnoitravel.com/mexico/"
+  },
+  "รัสเซีย": {
+    "amount": 27,
+    "link": "https://www.nidnoitravel.com/russia/"
+  },
+  "อเมริกา": {
+    "amount": 16,
+    "link": "https://www.nidnoitravel.com/united-states/"
+  },
+  "นิวซีแลนด์": {
+    "amount": 4,
+    "link": "https://www.nidnoitravel.com/new-zealand/"
+  },
+  "ออสเตรเลีย": {
+    "amount": 5,
+    "link": "https://www.nidnoitravel.com/australia/"
+  },
+  "อินโดนีเชียบาหลี": {
+    "amount": 7,
+    "link": "https://www.nidnoitravel.com/indonesia-bali/"
+  },
+  "ภูฏาน": {
+    "amount": 1,
+    "link": "https://www.nidnoitravel.com/bhutan/"
+  },
+  "สิงคโปร์": {
+    "amount": 44,
+    "link": "https://www.nidnoitravel.com/singapore/"
+  },
+  "มาเลเซีย": {
+    "amount": 12,
+    "link": "https://www.nidnoitravel.com/malaysia/"
+  },
+  "ลาว": {
+    "amount": 15,
+    "link": "https://www.nidnoitravel.com/laos/"
+  },
+  "กัมพูชา": {
+    "amount": 3,
+    "link": "https://www.nidnoitravel.com/cambodia/"
+  },
+  "ตุรกี": {
+    "amount": 41,
+    "link": "https://www.nidnoitravel.com/turkey/"
+  },
+  "จอร์แดน": {
+    "amount": 8,
+    "link": "https://www.nidnoitravel.com/jordan/"
+  },
+  "บราซิล": {
+    "amount": 4,
+    "link": "https://www.nidnoitravel.com/brazil/"
+  },
+  "อียิปต์": {
+    "amount": 21,
+    "link": "https://www.nidnoitravel.com/egypt/"
+  },
+  "ฟิลิปปินส์": {
+    "amount": 2,
+    "link": "https://www.nidnoitravel.com/philippines/"
+  },
+  "อังกฤษ": {
+    "amount": 15,
+    "link": "https://www.nidnoitravel.com/england/"
+  },
+  "บรูไน": {
+    "amount": 0,
+    "link": "https://www.nidnoitravel.com/brunei/"
+  },
+  "อิหร่าน": {
+    "amount": 5,
+    "link": "https://www.nidnoitravel.com/iran/"
+  },
+  "โมร็อกโก": {
+    "amount": 4,
+    "link": "https://www.nidnoitravel.com/morocco/"
+  },
+  "แอฟริกา": {
+    "amount": 9,
+    "link": "https://www.nidnoitravel.com/africa/"
+  },
+  "มาเก๊า": {
+    "amount": 31,
+    "link": "https://www.nidnoitravel.com/macau/"
+  },
+  "เนปาล": {
+    "amount": 3,
+    "link": "https://www.nidnoitravel.com/nepal/"
+  },
+  "ศรีลังกา": {
+    "amount": 3,
+    "link": "https://www.nidnoitravel.com/sri-lanka/"
+  },
+  "อิสราเอล": {
+    "amount": 0,
+    "link": "https://www.nidnoitravel.com/israel/"
+  },
+  "เคนยา": {
+    "amount": 0,
+    "link": "https://www.nidnoitravel.com/kenya/"
+  },
+  "กาลาปากอส": {
+    "amount": 0,
+    "link": "https://www.nidnoitravel.com/galapagos-islands/"
+  },
+  "ล่องเรือ": {
+    "amount": 0,
+    "link": "https://www.nidnoitravel.com/cruise/"
+  },
+  "มองโกเลีย": {
+    "amount": 1,
+    "link": "https://www.nidnoitravel.com/mongolia/"
+  },
+  "เยเมน": {
+    "amount": 0,
+    "link": "https://www.nidnoitravel.com/yemen/"
+  },
+  "แอฟริกาใต้": {
+    "amount": 2,
+    "link": "https://www.nidnoitravel.com/southern-africa/"
+  },
+  "แอลจีเรีย": {
+    "amount": 2,
+    "link": "https://www.nidnoitravel.com/algeria/"
+  },
+  "ตูนิเซีย": {
+    "amount": 1,
+    "link": "https://www.nidnoitravel.com/tunisia/"
+  },
+  "ลิเบีย": {
+    "amount": 1,
+    "link": "https://www.nidnoitravel.com/libya/"
+  },
+  "อิรัก": {
+    "amount": 1,
+    "link": "https://www.nidnoitravel.com/iraq/"
+  },
+  "คูเวต": {
+    "amount": 1,
+    "link": "https://www.nidnoitravel.com/kuwait/"
+  },
+  "กาตาร์": {
+    "amount": 1,
+    "link": "https://www.nidnoitravel.com/qatar/"
+  },
+  "บาห์เรน": {
+    "amount": 1,
+    "link": "https://www.nidnoitravel.com/bahrain/"
+  },
+  "โอมาน": {
+    "amount": 1,
+    "link": "https://www.nidnoitravel.com/oman/"
+  }
+}

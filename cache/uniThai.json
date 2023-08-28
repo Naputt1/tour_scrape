@@ -1,0 +1,198 @@
+{
+  "ยุโรป": {
+    "amount": 515,
+    "link": "https://www.unithaitravel.com/th/trip_promotion.php?continent_id=2"
+  },
+  "ญี่ปุ่น": {
+    "amount": 465,
+    "link": "https://www.unithaitravel.com/ทัวร์แพ็คเกจโรงแรมญี่ปุ่น"
+  },
+  "เกาหลี": {
+    "amount": 2,
+    "link": "https://www.unithaitravel.com/ทัวร์แพ็คเกจโรงแรมญี่ปุ่น"
+  },
+  "ฮ่องกง": {
+    "amount": 201,
+    "link": "https://www.unithaitravel.com/ทัวร์แพ็คเกจโรงแรมญี่ปุ่น"
+  },
+  "ไต้หวัน": {
+    "amount": 102,
+    "link": "https://www.unithaitravel.com/ทัวร์แพ็คเกจโรงแรมญี่ปุ่น"
+  },
+  "เวียดนาม": {
+    "amount": 227,
+    "link": "https://www.unithaitravel.com/ทัวร์แพ็คเกจโรงแรมญี่ปุ่น"
+  },
+  "มาเก๊า": {
+    "amount": 35,
+    "link": "https://www.unithaitravel.com/ทัวร์ฮ่องกง"
+  },
+  "จีน": {
+    "amount": 277,
+    "link": "https://www.unithaitravel.com/ทัวร์จีน"
+  },
+  "ลาว": {
+    "amount": 32,
+    "link": "https://www.unithaitravel.com/ทัวร์จีน"
+  },
+  "มองโกเลีย": {
+    "amount": 1,
+    "link": "https://www.unithaitravel.com/ทัวร์จีน"
+  },
+  "บรูไน": {
+    "amount": 2,
+    "link": "https://www.unithaitravel.com/ทัวร์แพ็คเกจโรงแรมเวียดนาม"
+  },
+  "ฟิลิปปินส์": {
+    "amount": 2,
+    "link": "https://www.unithaitravel.com/ทัวร์แพ็คเกจโรงแรมเวียดนาม"
+  },
+  "มาเลเซีย": {
+    "amount": 21,
+    "link": "https://www.unithaitravel.com/ทัวร์แพ็คเกจโรงแรมเวียดนาม"
+  },
+  "สิงคโปร์": {
+    "amount": 14,
+    "link": "https://www.unithaitravel.com/ทัวร์แพ็คเกจโรงแรมเวียดนาม"
+  },
+  "รัสเซีย": {
+    "amount": 36,
+    "link": "https://www.unithaitravel.com/ทัวร์รัสเซีย"
+  },
+  "ตุรกี": {
+    "amount": 50,
+    "link": "https://www.unithaitravel.com/ทัวร์ตุรกี"
+  },
+  "จอร์เจีย": {
+    "amount": 3,
+    "link": "https://www.unithaitravel.com/ทัวร์ตุรกี"
+  },
+  "กรีซ": {
+    "amount": 2,
+    "link": "https://www.unithaitravel.com/ทัวร์ตุรกี"
+  },
+  "อิสราเอล": {
+    "amount": 2,
+    "link": "https://www.unithaitravel.com/ทัวร์ตุรกี"
+  },
+  "ไซปรัส": {
+    "amount": 2,
+    "link": "https://www.unithaitravel.com/ทัวร์ตุรกี"
+  },
+  "สวิตเซอร์แลนด์": {
+    "amount": 356,
+    "link": "https://www.unithaitravel.com/ทัวร์สวิตเซอร์แลนด์"
+  },
+  "ฝรั่งเศส": {
+    "amount": 207,
+    "link": "https://www.unithaitravel.com/ทัวร์สวิตเซอร์แลนด์"
+  },
+  "อิตาลี": {
+    "amount": 237,
+    "link": "https://www.unithaitravel.com/ทัวร์สวิตเซอร์แลนด์"
+  },
+  "เยอรมนี": {
+    "amount": 271,
+    "link": "https://www.unithaitravel.com/ทัวร์สวิตเซอร์แลนด์"
+  },
+  "ออสเตรีย": {
+    "amount": 222,
+    "link": "https://www.unithaitravel.com/ทัวร์สวิตเซอร์แลนด์"
+  },
+  "เนเธอร์แลนด์": {
+    "amount": 27,
+    "link": "https://www.unithaitravel.com/ทัวร์สวิตเซอร์แลนด์"
+  },
+  "ออสเตรเลีย": {
+    "amount": 2,
+    "link": "https://www.unithaitravel.com/ทัวร์สวิตเซอร์แลนด์"
+  },
+  "เบลเยี่ยม": {
+    "amount": 20,
+    "link": "https://www.unithaitravel.com/ทัวร์สวิตเซอร์แลนด์"
+  },
+  "สหรัฐอาหรับเอมิเรต": {
+    "amount": 2,
+    "link": "https://www.unithaitravel.com/ทัวร์สวิตเซอร์แลนด์"
+  },
+  "เช็ก": {
+    "amount": 118,
+    "link": "https://www.unithaitravel.com/ทัวร์สวิตเซอร์แลนด์"
+  },
+  "สโลวัก": {
+    "amount": 91,
+    "link": "https://www.unithaitravel.com/ทัวร์สวิตเซอร์แลนด์"
+  },
+  "ฮังการี": {
+    "amount": 86,
+    "link": "https://www.unithaitravel.com/ทัวร์สวิตเซอร์แลนด์"
+  },
+  "มอลตา": {
+    "amount": 9,
+    "link": "https://www.unithaitravel.com/ทัวร์อิตาลี"
+  },
+  "โมนาโค": {
+    "amount": 1,
+    "link": "https://www.unithaitravel.com/ทัวร์อิตาลี"
+  },
+  "สเปน": {
+    "amount": 12,
+    "link": "https://www.unithaitravel.com/ทัวร์อิตาลี"
+  },
+  "อันดอร์รา": {
+    "amount": 3,
+    "link": "https://www.unithaitravel.com/ทัวร์อิตาลี"
+  },
+  "อินเดีย": {
+    "amount": 46,
+    "link": "https://www.unithaitravel.com/ทัวร์อินเดีย"
+  },
+  "เนปาล": {
+    "amount": 4,
+    "link": "https://www.unithaitravel.com/ทัวร์อินเดีย"
+  },
+  "ในประเทศ": {
+    "amount": 1,
+    "link": "https://www.unithaitravel.com/ทัวร์มาเลเซีย"
+  },
+  "อินโดนีเซีย": {
+    "amount": 13,
+    "link": "https://www.unithaitravel.com/ทัวร์อินโดนีเซีย"
+  },
+  "อังกฤษ": {
+    "amount": 32,
+    "link": "https://www.unithaitravel.com/ทัวร์อังกฤษ"
+  },
+  "เดนมาร์ค": {
+    "amount": 37,
+    "link": "https://www.unithaitravel.com/ทัวร์เยอรมนี"
+  },
+  "ลักเซมเบิร์ก": {
+    "amount": 6,
+    "link": "https://www.unithaitravel.com/ทัวร์เยอรมนี"
+  },
+  "สโลวีเนีย": {
+    "amount": 4,
+    "link": "https://www.unithaitravel.com/ทัวร์เยอรมนี"
+  },
+  "โครเอเชีย": {
+    "amount": 2,
+    "link": "https://www.unithaitravel.com/ทัวร์เยอรมนี"
+  },
+  "ฟินแลนด์": {
+    "amount": 23,
+    "link": "https://www.unithaitravel.com/ทัวร์ยุโรป-สแกนดิเนเวีย"
+  },
+  "สวีเดน": {
+    "amount": 37,
+    "link": "https://www.unithaitravel.com/ทัวร์ยุโรป-สแกนดิเนเวีย"
+  },
+  "นอร์เวย์": {
+    "amount": 38,
+    "link": "https://www.unithaitravel.com/ทัวร์ยุโรป-สแกนดิเนเวีย"
+  },
+  "เอสโตเนีย": {
+    "amount": 1,
+    "link": "https://www.unithaitravel.com/ทัวร์ยุโรป-สแกนดิเนเวีย"
+  }
+}

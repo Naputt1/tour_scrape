@@ -19,7 +19,8 @@ url = [
 async function redirectPage(page, url) {
   try {
     await page.goto(url, {
-      // waitUntil: "load",
+      waitUntil: "domcontentloaded",
+      timeout: TIME_OUT,
     });
   } catch (e) {}
 }
@@ -64,9 +65,10 @@ async function mushroomFunc(objRef, filePath) {
 
   console.log("redirect");
 
-  index = 0;
   for (let i = 1; i < 4; i++) {
-    while (await mushroomChangePage(i, index)) {
+    let link = await mushroomChangePage(i);
+    while (link) {
+      await redirectPage(page, link);
       await wait(WAIT_PER_PAGE);
 
       const result = await page.evaluate(() => {
@@ -76,8 +78,8 @@ async function mushroomFunc(objRef, filePath) {
         return data.match(/(.+)\s+\((\d+)\)/).slice(1);
       });
 
-      objRef[result[0].replace("ทัวร์", "")] = parseInt(result[1]);
-      index++;
+      objRef[result[0].replace("ทัวร์", "")] = {"amount":parseInt(result[1]), "link":link};
+      link = await mushroomChangePage(i);
     }
   }
 
@@ -95,8 +97,7 @@ async function mushroomChangePage(temp) {
         if (countriesWrapper.length <= index) {
           return false;
         }
-        countriesWrapper[index].querySelector("a").click();
-        return true;
+        return countriesWrapper[index].querySelector("a").getAttribute("href");
       },
       temp,
       mushroomIndex
@@ -109,7 +110,10 @@ async function mushroomChangePage(temp) {
 async function uniThaiFunc(uniThai, filePath) {
   await redirectPage(page, url[1]);
 
-  while (await unithaiChangePage()) {
+  let link = await unithaiChangePage();
+
+  while (link) {
+    await redirectPage(page, link)
     await wait(WAIT_PER_PAGE);
 
     try {
@@ -159,12 +163,14 @@ async function uniThaiFunc(uniThai, filePath) {
       for (const contry of new Set(transformedKey)) {
         if (contry && contry !== "")
           if (uniThai.hasOwnProperty(contry)) {
-            uniThai[contry] += result[1];
+            uniThai[contry]["amount"] += result[1];
           } else {
-            uniThai[contry] = result[1];
+            uniThai[contry] = {"amount":result[1], "link":link};
           }
       }
     });
+
+    link = await unithaiChangePage();
   }
 
   saveAsJson(uniThai, filePath);
@@ -186,11 +192,9 @@ async function unithaiChangePage() {
           return false;
         }
 
-        row[rowIndex]
+        return "https://www.unithaitravel.com" + row[rowIndex]
           .querySelectorAll("div.col-sm-12.col-xs-4.col-padl")
-          [subIndex].querySelector("a")
-          .click();
-        return true;
+          [subIndex].querySelector("a").getAttribute("href")
       },
       uniThaiRowIndex,
       uniThaiSubIndex
@@ -215,6 +219,7 @@ async function thaiTravelCenterFunc(thaiTravelCenter, filePath) {
 
   let secondPage = await browser.newPage();
 
+  try{
   while (newurl) {
     console.log(newurl);
     await redirectPage(secondPage, newurl);
@@ -286,11 +291,12 @@ async function thaiTravelCenterFunc(thaiTravelCenter, filePath) {
       });
     }
 
-    thaiTravelCenter[courntry] = result;
+    thaiTravelCenter[courntry] = {"amount":result, "link":newurl};
 
     newurl = await thaiTravelCenterGetNextUrl();
+  }}finally{
+    await secondPage.close();
   }
-  await secondPage.close();
 
   saveAsJson(thaiTravelCenter, filePath);
 }
@@ -318,7 +324,7 @@ async function thaiTravelCenterGetNextUrl() {
 async function nidNoiFunc(nidNoi, filePath) {
   await redirectPage(page, url[3]);
 
-  let country = await nidNoiGetNextUrl();
+  let [country, link] = await nidNoiGetNextUrl();
 
   while (country) {
     await wait(WAIT_PER_PAGE);
@@ -339,11 +345,11 @@ async function nidNoiFunc(nidNoi, filePath) {
       });
     } catch (e) {}
 
-    nidNoi[country] = num;
+    nidNoi[country] = {"amount":num, "link":link};
 
     console.log("after");
 
-    country = await nidNoiGetNextUrl();
+    [country, link] = await nidNoiGetNextUrl();
   }
 
   saveAsJson(nidNoi, filePath);
@@ -362,7 +368,7 @@ async function nidNoiGetNextUrl() {
 
       console.log(row.length, rowIndex, row.length <= rowIndex);
       if (row.length <= rowIndex) {
-        return false;
+        return [false, null];
       }
 
       console.log(row[rowIndex], rowIndex);
@@ -372,19 +378,18 @@ async function nidNoiGetNextUrl() {
       console.log("p", row[rowIndex].children);
 
       console.log("a", a);
-      a.click();
 
-      console.log("click");
-
-      return a
+      return [a
         .querySelector("div")
         .innerText.replace("ทัวร์", "")
-        .replace(/\s/g, "");
+        .replace(/\s/g, ""), a.getAttribute("href")];
     }, nidNoiIndex);
 
-    console.log("bRedirected", bRedirected, nidNoiIndex);
+    await redirectPage(page, bRedirected[1]);
 
-    if (bRedirected === "ยุโรป") {
+    console.log("bRedirected", bRedirected[0], nidNoiIndex);
+
+    if (bRedirected[0] === "ยุโรป") {
       //get courtry stack courntry name
       const data = await page.evaluate(
         (rowIndex, index) => {
@@ -416,18 +421,18 @@ async function nidNoiGetNextUrl() {
       );
       nidnoiRowIndex++;
 
-      bRedirected = data[0];
+      bRedirected = data;
 
-      if (!bRedirected) {
+      if (!bRedirected[0]) {
         await wait(WAIT_PER_PAGE);
         nidNoiIndex++;
         bRedirected = nidNoiGetNextUrl();
       }
 
-      console.log("name", bRedirected);
+      console.log("name", bRedirected[0]);
 
       await redirectPage(page, data[1]);
-    } else if (bRedirected) {
+    } else if (bRedirected[0]) {
       try {
         await page.waitForSelector(
           "ul.wow-main-menu__list-menu-1.uk-grid-small.uk-grid",
@@ -435,9 +440,7 @@ async function nidNoiGetNextUrl() {
         );
       } catch (e) {}
 
-      console.log("link");
-
-      const link = await page.evaluate((index) => {
+      bRedirected[1] = await page.evaluate((index) => {
         return document
           .querySelector("ul.wow-main-menu__list-menu-1.uk-grid-small.uk-grid")
           .children[1].querySelector("ul")
@@ -445,8 +448,7 @@ async function nidNoiGetNextUrl() {
           .getAttribute("href");
       }, nidNoiIndex);
 
-      console.log(link);
-      await redirectPage(page, link);
+      await redirectPage(page, bRedirected[1]);
 
       console.log("redirec");
 
@@ -459,7 +461,7 @@ async function nidNoiGetNextUrl() {
 async function nextTripHolidayFunc(nextTripHoliday, filePath) {
   await redirectPage(page, url[4]);
 
-  let courntry = await nextTripHolidayGetNextUrl();
+  let [courntry, link] = await nextTripHolidayGetNextUrl();
 
   while (courntry) {
     await wait(WAIT_PER_PAGE);
@@ -478,9 +480,9 @@ async function nextTripHolidayFunc(nextTripHoliday, filePath) {
       });
     } catch (e) {}
 
-    nextTripHoliday[courntry] = num;
+    nextTripHoliday[courntry] = {"amount":num, "link":link};
 
-    courntry = await nextTripHolidayGetNextUrl();
+    [courntry, link] = await nextTripHolidayGetNextUrl();
   }
 
   saveAsJson(nextTripHoliday, filePath);
@@ -491,7 +493,7 @@ let nextTripHolidaySubIndex = 0;
 
 async function nextTripHolidayGetNextUrl() {
   return new Promise(async (resolve) => {
-    let bRedirected = await page.evaluate(
+    let [bRedirected, link] = await page.evaluate(
       (rowIndex, subIndex) => {
         const wrapper = document.querySelector(
           "div.wow-main-menu__dropdown-full-width"
@@ -501,17 +503,16 @@ async function nextTripHolidayGetNextUrl() {
         ).children;
         console.log(row.length, rowIndex, row.length - 2 <= rowIndex);
         if (row.length <= rowIndex) {
-          return false;
+          return [false, null];
         }
 
         const a = row[rowIndex].querySelectorAll("a");
+        console.log(a.length, subIndex, a.length <= subIndex);
         if (a.length <= subIndex) {
-          return "next";
+          return ["next", null];
         }
 
-        a[subIndex].click();
-
-        return a[subIndex].innerText.replace("ทัวร์", "").replace(/\s/g, "");
+        return [a[subIndex].innerText.replace("ทัวร์", "").replace(/\s/g, ""), a[subIndex].getAttribute("href")];
       },
       nextTripHolidayRowIndex,
       nextTripHolidaySubIndex
@@ -524,15 +525,16 @@ async function nextTripHolidayGetNextUrl() {
       bRedirected = nextTripHolidayGetNextUrl();
     } else {
       nextTripHolidaySubIndex++;
+      await redirectPage(page, link)
     }
-    resolve(bRedirected);
+    resolve([bRedirected, link]);
   });
 }
 
 async function tourProFunc(tourPro, filePath) {
   await redirectPage(page, url[5]);
 
-  country = await tourProGetNextUrl();
+  let [country, link] = await tourProGetNextUrl();
 
   while (country) {
     await wait(WAIT_PER_PAGE);
@@ -551,13 +553,9 @@ async function tourProFunc(tourPro, filePath) {
       });
     } catch (e) {}
 
-    if (!num) {
-      await wait(40000);
-    }
+    tourPro[country] = {"amount":num, "link":link};
 
-    tourPro[country] = num;
-
-    country = await tourProGetNextUrl();
+    [country, link] = await tourProGetNextUrl();
   }
 
   saveAsJson(tourPro, filePath);
@@ -608,7 +606,7 @@ async function tourProGetNextUrl() {
       await redirectPage(page, result[1]);
     }
     console.log(result);
-    resolve(result[0]);
+    resolve(result);
   });
 }
 
@@ -657,62 +655,56 @@ const main = async () => {
     page.setDefaultNavigationTimeout(TIME_OUT);
 
     //mushroom
-    await getData("mushroom.json", mushroomFunc, mushroom);
+    await getData("cache/mushroom.json", mushroomFunc, mushroom);
 
     //unithai
-    await getData("uniThai.json", uniThaiFunc, uniThai);
+    await getData("cache/uniThai.json", uniThaiFunc, uniThai);
 
     // thaiTravelCenter
     await getData(
-      "thaiTravelCenter.json",
+      "cache/thaiTravelCenter.json",
       thaiTravelCenterFunc,
       thaiTravelCenter
     );
 
     //nidNoi
-    await getData("nidNoi.json", nidNoiFunc, nidNoi);
+    await getData("cache/nidNoi.json", nidNoiFunc, nidNoi);
 
     //nextTripHoliday
-    await getData("nextTripHoliday.json", nextTripHolidayFunc, nextTripHoliday);
+    await getData(
+      "cache/nextTripHoliday.json",
+      nextTripHolidayFunc,
+      nextTripHoliday
+    );
 
     //tourPro
-    await getData("tourPro.json", tourProFunc, tourPro);
+    await getData("cache/tourPro.json", tourProFunc, tourPro);
 
     //organise data
     const data = {};
 
     function addData(obj, name) {
       Object.keys(obj).forEach((key) => {
-        if (data.hasOwnProperty(key)) {
+        if (data.hasOwnProperty(key)){
           data[key][name] = obj[key];
-        } else {
+        } else{
           data[key] = { [name]: obj[key] };
         }
       });
     }
 
-    function uniThaiaddData(obj, name) {
-      Object.keys(obj).forEach((key) => {
-        try {
-          key = JSON.parse(key);
-        } catch (e) {
-          if (data.hasOwnProperty(key)) {
-            data[key][name] = obj[key];
-          } else {
-            data[key] = { [name]: obj[key] };
-          }
-        }
-      });
-    }
 
     addData(mushroom, "mushroom");
-    uniThaiaddData(uniThai, "uniThai");
+    addData(uniThai, "uniThai");
     addData(thaiTravelCenter, "thaiTravelCenter");
     addData(nidNoi, "nidNoi");
     addData(nextTripHoliday, "nextTripHoliday");
     addData(tourPro, "tourPro");
 
     await saveAsJson(data, "temp.json");
+
+    console.log(data);
+
 
     const tour = [
       [
@@ -727,17 +719,21 @@ const main = async () => {
     ];
 
     Object.keys(data).forEach(country => {
-      const temp = [country];
+      const temp = [""];
+      const links = [country];
       const tourobj = data[country];
 
-      for (let i = 1; i < tour[0].length - 1; i++) {
+      for (let i = 1; i < tour[0].length; i++) {
         if (tourobj.hasOwnProperty(tour[0][i])) {
-          temp.push(tourobj[tour[0][i]]);
+          temp.push(tourobj[tour[0][i]]["amount"]);
+          links.push(tourobj[tour[0][i]]["link"]);
         } else {
           temp.push("#N/A");
+          links.push("");
         }
       }
 
+      tour.push(links);
       tour.push(temp);
       tour.push([]);
     });
@@ -760,11 +756,13 @@ const main = async () => {
     );
 
     
-
+    browser.close();
 
   } catch (e) {
     console.log(e);
-    // await main();
+    await page.close();
+    await browser.close();
+    await main();
   }
 };
 

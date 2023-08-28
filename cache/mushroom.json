@@ -1,0 +1,78 @@
+{
+  "ญี่ปุ่น": {
+    "amount": 346,
+    "link": "https://www.mushroomtravel.com/tour/outbound/japan"
+  },
+  "เกาหลี": {
+    "amount": 58,
+    "link": "https://www.mushroomtravel.com/tour/outbound/korea"
+  },
+  "ฮ่องกง": {
+    "amount": 105,
+    "link": "https://www.mushroomtravel.com/tour/outbound/hong-kong"
+  },
+  "มาเก๊า": {
+    "amount": 17,
+    "link": "https://www.mushroomtravel.com/tour/outbound/macau"
+  },
+  "จีน": {
+    "amount": 194,
+    "link": "https://www.mushroomtravel.com/tour/outbound/china"
+  },
+  "ไต้หวัน": {
+    "amount": 72,
+    "link": "https://www.mushroomtravel.com/tour/outbound/taiwan"
+  },
+  "เวียดนาม": {
+    "amount": 136,
+    "link": "https://www.mushroomtravel.com/tour/outbound/vietnam"
+  },
+  "พม่า": {
+    "amount": 29,
+    "link": "https://www.mushroomtravel.com/tour/outbound/myanmar"
+  },
+  "สิงคโปร์": {
+    "amount": 33,
+    "link": "https://www.mushroomtravel.com/tour/outbound/singapore"
+  },
+  "อินเดีย": {
+    "amount": 20,
+    "link": "https://www.mushroomtravel.com/tour/outbound/india"
+  },
+  "ลาว": {
+    "amount": 8,
+    "link": "https://www.mushroomtravel.com/tour/outbound/laos"
+  },
+  "บาหลี": {
+    "amount": 10,
+    "link": "https://www.mushroomtravel.com/tour/outbound/indonesia/bali"
+  },
+  "มาเลเซีย": {
+    "amount": 10,
+    "link": "https://www.mushroomtravel.com/tour/outbound/malaysia"
+  },
+  "กัมพูชา": {
+    "amount": 1,
+    "link": "https://www.mushroomtravel.com/tour/outbound/cambodia"
+  },
+  "ดูไบ": {
+    "amount": 4,
+    "link": "https://www.mushroomtravel.com/tour/outbound/dubai"
+  },
+  "ภูฏาน": {
+    "amount": 1,
+    "link": "https://www.mushroomtravel.com/tour/outbound/bhutan"
+  },
+  "เนปาล": {
+    "amount": 3,
+    "link": "https://www.mushroomtravel.com/tour/outbound/nepal"
+  },
+  "มองโกเลีย": {
+    "amount": 0,
+    "link": "https://www.mushroomtravel.com/tour/outbound/mongolia"
+  },
+  "ฟิลิปปินส์": {
+    "amount": 1,
+    "link": "https://www.mushroomtravel.com/tour/outbound/philippines"
+  }
+}

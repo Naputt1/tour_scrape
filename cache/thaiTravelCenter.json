@@ -1,0 +1,102 @@
+{
+  "ญี่ปุ่น": {
+    "amount": 279,
+    "link": "https://www.thaitravelcenter.com/japantour/"
+  },
+  "ยุโรป": {
+    "amount": 199,
+    "link": "https://www.thaitravelcenter.com/europetour/"
+  },
+  "จอร์เจีย": {
+    "amount": 22,
+    "link": "https://www.thaitravelcenter.com/georgiatour/"
+  },
+  "เกาหลี": {
+    "amount": 30,
+    "link": "https://www.thaitravelcenter.com/koreatour/"
+  },
+  "ไต้หวัน": {
+    "amount": 53,
+    "link": "https://www.thaitravelcenter.com/taiwantour/"
+  },
+  "พม่า": {
+    "amount": 15,
+    "link": "https://www.thaitravelcenter.com/myanmartour/"
+  },
+  "เวียดนาม": {
+    "amount": 116,
+    "link": "https://www.thaitravelcenter.com/vietnamtour/"
+  },
+  "จีน": {
+    "amount": 129,
+    "link": "https://www.thaitravelcenter.com/chinatour/"
+  },
+  "มาเก๊า": {
+    "amount": 1,
+    "link": "https://www.thaitravelcenter.com/macautour/"
+  },
+  "ตุรกี": {
+    "amount": 22,
+    "link": "https://www.thaitravelcenter.com/turkeytour/"
+  },
+  "รัสเซีย": {
+    "amount": 26,
+    "link": "https://www.thaitravelcenter.com/russiatour/"
+  },
+  "สิงคโปร์": {
+    "amount": 30,
+    "link": "https://www.thaitravelcenter.com/singaporetour/"
+  },
+  "เอเชีย": {
+    "amount": 23,
+    "link": "https://www.thaitravelcenter.com/asiatour/"
+  },
+  "ออสเตรเลีย": {
+    "amount": 5,
+    "link": "https://www.thaitravelcenter.com/australiatour/"
+  },
+  "นิวซีแลนด์": {
+    "amount": 6,
+    "link": "https://www.thaitravelcenter.com/newzealandtour/"
+  },
+  "มาเลเซีย": {
+    "amount": 8,
+    "link": "https://www.thaitravelcenter.com/malaysiatour/"
+  },
+  "ฮ่องกง": {
+    "amount": 94,
+    "link": "https://www.thaitravelcenter.com/hongkongtour/"
+  },
+  "ตะวันออกกลาง": {
+    "amount": 14,
+    "link": "https://www.thaitravelcenter.com/middleeasttour/"
+  },
+  "ลาว": {
+    "amount": 5,
+    "link": "https://www.thaitravelcenter.com/laostour/"
+  },
+  "อเมริกา": {
+    "amount": 13,
+    "link": "https://www.thaitravelcenter.com/americatour/"
+  },
+  "มัลดีฟส์": {
+    "amount": 20,
+    "link": "https://www.thaitravelcenter.com/package-maldives/"
+  },
+  "อินเดีย": {
+    "amount": 14,
+    "link": "https://www.thaitravelcenter.com/indiatour/"
+  },
+  "อียิปต์": {
+    "amount": 13,
+    "link": "https://www.thaitravelcenter.com/egypttour/"
+  },
+  "แอฟริกา": {
+    "amount": 11,
+    "link": "https://www.thaitravelcenter.com/africatour/"
+  },
+  "อเมริกาใต้": {
+    "amount": 6,
+    "link": "https://www.thaitravelcenter.com/southamericatour/"
+  }
+}
