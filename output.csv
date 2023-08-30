@@ -1,36 +1,36 @@
 ประเทศ,mushroom,uniThai,thaiTravelCenter,nidNoi,nextTripHoliday,tourPro
 ญี่ปุ่น,https://www.mushroomtravel.com/tour/outbound/japan,https://www.unithaitravel.com/ทัวร์แพ็คเกจโรงแรมญี่ปุ่น,https://www.thaitravelcenter.com/japantour/,https://www.nidnoitravel.com/japan/,https://www.nexttripholiday.com/japan/,https://tourpro.co/japan/
-,346,465,279,403,244,510
+,361,485,10,410,251,525
 
 เกาหลี,https://www.mushroomtravel.com/tour/outbound/korea,https://www.unithaitravel.com/ทัวร์แพ็คเกจโรงแรมญี่ปุ่น,https://www.thaitravelcenter.com/koreatour/,,https://www.nexttripholiday.com/korea/,https://tourpro.co/korea/
-,58,2,30,#N/A,45,99
+,52,2,31,#N/A,45,102
 
 ฮ่องกง,https://www.mushroomtravel.com/tour/outbound/hong-kong,https://www.unithaitravel.com/ทัวร์แพ็คเกจโรงแรมญี่ปุ่น,https://www.thaitravelcenter.com/hongkongtour/,https://www.nidnoitravel.com/hong-kong/,https://www.nexttripholiday.com/hong-kong/,https://tourpro.co/hong-kong/
-,105,201,94,112,101,144
+,114,211,90,112,101,143
 
 มาเก๊า,https://www.mushroomtravel.com/tour/outbound/macau,https://www.unithaitravel.com/ทัวร์ฮ่องกง,https://www.thaitravelcenter.com/macautour/,https://www.nidnoitravel.com/macau/,https://www.nexttripholiday.com/macau/,https://tourpro.co/macau/
-,17,35,1,31,19,32
+,21,33,1,30,18,30
 
 จีน,https://www.mushroomtravel.com/tour/outbound/china,https://www.unithaitravel.com/ทัวร์จีน,https://www.thaitravelcenter.com/chinatour/,https://www.nidnoitravel.com/china/,https://www.nexttripholiday.com/china/,https://tourpro.co/china/
-,194,277,129,232,127,273
+,204,295,129,234,129,284
 
 ไต้หวัน,https://www.mushroomtravel.com/tour/outbound/taiwan,https://www.unithaitravel.com/ทัวร์แพ็คเกจโรงแรมญี่ปุ่น,https://www.thaitravelcenter.com/taiwantour/,https://www.nidnoitravel.com/taiwan/,https://www.nexttripholiday.com/taiwan/,https://tourpro.co/taiwan/
-,72,102,53,77,61,87
+,78,111,54,78,62,92
 
 เวียดนาม,https://www.mushroomtravel.com/tour/outbound/vietnam,https://www.unithaitravel.com/ทัวร์แพ็คเกจโรงแรมญี่ปุ่น,https://www.thaitravelcenter.com/vietnamtour/,https://www.nidnoitravel.com/vietnam/,https://www.nexttripholiday.com/vietnam/,https://tourpro.co/vietnam/
-,136,227,116,168,150,173
+,138,233,115,169,153,174
 
 พม่า,https://www.mushroomtravel.com/tour/outbound/myanmar,,https://www.thaitravelcenter.com/myanmartour/,https://www.nidnoitravel.com/myanmar/,https://www.nexttripholiday.com/myanmar/,https://tourpro.co/myanmar/
-,29,#N/A,15,37,36,38
+,32,#N/A,15,36,36,39
 
 สิงคโปร์,https://www.mushroomtravel.com/tour/outbound/singapore,https://www.unithaitravel.com/ทัวร์แพ็คเกจโรงแรมเวียดนาม,https://www.thaitravelcenter.com/singaporetour/,https://www.nidnoitravel.com/singapore/,https://www.nexttripholiday.com/singapore/,https://tourpro.co/singapore/
-,33,14,30,44,21,29
+,33,14,30,43,21,29
 
 อินเดีย,https://www.mushroomtravel.com/tour/outbound/india,https://www.unithaitravel.com/ทัวร์อินเดีย,https://www.thaitravelcenter.com/indiatour/,https://www.nidnoitravel.com/india/,https://www.nexttripholiday.com/india/,https://tourpro.co/india/
-,20,46,14,46,17,29
+,20,47,14,46,17,30
 
 ลาว,https://www.mushroomtravel.com/tour/outbound/laos,https://www.unithaitravel.com/ทัวร์จีน,https://www.thaitravelcenter.com/laostour/,https://www.nidnoitravel.com/laos/,https://www.nexttripholiday.com/laos/,https://tourpro.co/laos/
-,8,32,5,15,8,8
+,9,33,5,15,8,9
 
 บาหลี,https://www.mushroomtravel.com/tour/outbound/indonesia/bali,,,,https://www.nexttripholiday.com/indonesia-bali/,
 ,10,#N/A,#N/A,#N/A,1,#N/A
@@ -39,10 +39,10 @@
 ,10,21,8,12,7,7
 
 กัมพูชา,https://www.mushroomtravel.com/tour/outbound/cambodia,,,https://www.nidnoitravel.com/cambodia/,https://www.nexttripholiday.com/cambodia/,
-,1,#N/A,#N/A,3,1,#N/A
+,2,#N/A,#N/A,4,2,#N/A
 
 ดูไบ,https://www.mushroomtravel.com/tour/outbound/dubai,,,https://www.nidnoitravel.com/dubai/,,https://tourpro.co/dubai/
-,4,#N/A,#N/A,5,#N/A,4
+,5,#N/A,#N/A,5,#N/A,4
 
 ภูฏาน,https://www.mushroomtravel.com/tour/outbound/bhutan,,,https://www.nidnoitravel.com/bhutan/,https://www.nexttripholiday.com/bhutan/,https://tourpro.co/bhutan/
 ,1,#N/A,#N/A,1,1,0
@@ -51,13 +51,13 @@
 ,3,4,#N/A,3,2,7
 
 มองโกเลีย,https://www.mushroomtravel.com/tour/outbound/mongolia,https://www.unithaitravel.com/ทัวร์จีน,,https://www.nidnoitravel.com/mongolia/,,https://tourpro.co/mongolia/
-,0,1,#N/A,1,#N/A,0
+,1,1,#N/A,1,#N/A,1
 
 ฟิลิปปินส์,https://www.mushroomtravel.com/tour/outbound/philippines,https://www.unithaitravel.com/ทัวร์แพ็คเกจโรงแรมเวียดนาม,,https://www.nidnoitravel.com/philippines/,https://www.nexttripholiday.com/philippines/,https://tourpro.co/philippines/
 ,1,2,#N/A,2,0,2
 
 ยุโรป,,https://www.unithaitravel.com/th/trip_promotion.php?continent_id=2,https://www.thaitravelcenter.com/europetour/,,,
-,#N/A,515,199,#N/A,#N/A,#N/A
+,#N/A,517,200,#N/A,#N/A,#N/A
 
 บรูไน,,https://www.unithaitravel.com/ทัวร์แพ็คเกจโรงแรมเวียดนาม,,https://www.nidnoitravel.com/brunei/,https://www.nexttripholiday.com/brunei/,
 ,#N/A,2,#N/A,0,0,#N/A
@@ -66,10 +66,10 @@
 ,#N/A,36,26,27,15,30
 
 ตุรกี,,https://www.unithaitravel.com/ทัวร์ตุรกี,https://www.thaitravelcenter.com/turkeytour/,https://www.nidnoitravel.com/turkey/,https://www.nexttripholiday.com/turkey/,
-,#N/A,50,22,41,20,#N/A
+,#N/A,52,22,40,20,#N/A
 
 จอร์เจีย,,https://www.unithaitravel.com/ทัวร์ตุรกี,https://www.thaitravelcenter.com/georgiatour/,https://www.nidnoitravel.com/georgia/,https://www.nexttripholiday.com/georgia/,https://tourpro.co/georgia/
-,#N/A,3,22,49,24,35
+,#N/A,5,22,47,24,35
 
 กรีซ,,https://www.unithaitravel.com/ทัวร์ตุรกี,,https://www.nidnoitravel.com/greece/,https://www.nexttripholiday.com/greece/,https://tourpro.co/greece/
 ,#N/A,2,#N/A,5,1,4
@@ -81,19 +81,19 @@
 ,#N/A,2,#N/A,#N/A,#N/A,#N/A
 
 สวิตเซอร์แลนด์,,https://www.unithaitravel.com/ทัวร์สวิตเซอร์แลนด์,,https://www.nidnoitravel.com/switzerland/,https://www.nexttripholiday.com/switzerland/,https://tourpro.co/switzerland/
-,#N/A,356,#N/A,143,62,133
+,#N/A,356,#N/A,143,65,139
 
 ฝรั่งเศส,,https://www.unithaitravel.com/ทัวร์สวิตเซอร์แลนด์,,https://www.nidnoitravel.com/france/,https://www.nexttripholiday.com/france/,https://tourpro.co/france/
-,#N/A,207,#N/A,103,50,102
+,#N/A,207,#N/A,103,51,105
 
 อิตาลี,,https://www.unithaitravel.com/ทัวร์สวิตเซอร์แลนด์,,https://www.nidnoitravel.com/italy/,https://www.nexttripholiday.com/italy/,https://tourpro.co/italy/
-,#N/A,237,#N/A,99,34,87
+,#N/A,237,#N/A,99,35,91
 
 เยอรมนี,,https://www.unithaitravel.com/ทัวร์สวิตเซอร์แลนด์,,,,
 ,#N/A,271,#N/A,#N/A,#N/A,#N/A
 
 ออสเตรีย,,https://www.unithaitravel.com/ทัวร์สวิตเซอร์แลนด์,,https://www.nidnoitravel.com/austria/,https://www.nexttripholiday.com/austria/,https://tourpro.co/austria/
-,#N/A,222,#N/A,73,24,73
+,#N/A,222,#N/A,73,24,76
 
 เนเธอร์แลนด์,,https://www.unithaitravel.com/ทัวร์สวิตเซอร์แลนด์,,https://www.nidnoitravel.com/netherlands/,,https://tourpro.co/netherlands/
 ,#N/A,27,#N/A,18,#N/A,22
@@ -134,11 +134,11 @@
 อินโดนีเซีย,,https://www.unithaitravel.com/ทัวร์อินโดนีเซีย,,,,https://tourpro.co/indonesia/
 ,#N/A,13,#N/A,#N/A,#N/A,9
 
-อังกฤษ,,https://www.unithaitravel.com/ทัวร์อังกฤษ,,https://www.nidnoitravel.com/england/,https://www.nexttripholiday.com/england/,
-,#N/A,32,#N/A,15,7,#N/A
+อังกฤษ,,https://www.unithaitravel.com/ทัวร์อังกฤษ,,https://www.nidnoitravel.com/england/,https://www.nexttripholiday.com/england/,https://tourpro.co/england/
+,#N/A,32,#N/A,15,8,20
 
 เดนมาร์ค,,https://www.unithaitravel.com/ทัวร์เยอรมนี,,,,
-,#N/A,37,#N/A,#N/A,#N/A,#N/A
+,#N/A,39,#N/A,#N/A,#N/A,#N/A
 
 ลักเซมเบิร์ก,,https://www.unithaitravel.com/ทัวร์เยอรมนี,,https://www.nidnoitravel.com/luxembourg/,,
 ,#N/A,6,#N/A,6,#N/A,#N/A
@@ -150,13 +150,13 @@
 ,#N/A,2,#N/A,6,1,6
 
 ฟินแลนด์,,https://www.unithaitravel.com/ทัวร์ยุโรป-สแกนดิเนเวีย,,https://www.nidnoitravel.com/finland/,https://www.nexttripholiday.com/finland/,https://tourpro.co/finland/
-,#N/A,23,#N/A,13,3,11
+,#N/A,23,#N/A,14,3,11
 
 สวีเดน,,https://www.unithaitravel.com/ทัวร์ยุโรป-สแกนดิเนเวีย,,https://www.nidnoitravel.com/sweden/,,https://tourpro.co/sweden/
-,#N/A,37,#N/A,21,#N/A,18
+,#N/A,39,#N/A,24,#N/A,20
 
 นอร์เวย์,,https://www.unithaitravel.com/ทัวร์ยุโรป-สแกนดิเนเวีย,,https://www.nidnoitravel.com/norway/,https://www.nexttripholiday.com/norway/,https://tourpro.co/norway/
-,#N/A,38,#N/A,27,13,22
+,#N/A,40,#N/A,30,14,24
 
 เอสโตเนีย,,https://www.unithaitravel.com/ทัวร์ยุโรป-สแกนดิเนเวีย,,,,
 ,#N/A,1,#N/A,#N/A,#N/A,#N/A
@@ -168,7 +168,7 @@
 ,#N/A,#N/A,6,4,0,3
 
 ตะวันออกกลาง,,,https://www.thaitravelcenter.com/middleeasttour/,,,
-,#N/A,#N/A,14,#N/A,#N/A,#N/A
+,#N/A,#N/A,15,#N/A,#N/A,#N/A
 
 อเมริกา,,,https://www.thaitravelcenter.com/americatour/,https://www.nidnoitravel.com/united-states/,,
 ,#N/A,#N/A,13,16,#N/A,#N/A
@@ -186,16 +186,16 @@
 ,#N/A,#N/A,6,#N/A,#N/A,#N/A
 
 เกาหลีใต้,,,,https://www.nidnoitravel.com/korea/,,
-,#N/A,#N/A,#N/A,83,#N/A,#N/A
+,#N/A,#N/A,#N/A,85,#N/A,#N/A
 
 เยอรมัน,,,,https://www.nidnoitravel.com/germany/,https://www.nexttripholiday.com/germany/,https://tourpro.co/germany/
-,#N/A,#N/A,#N/A,81,36,81
+,#N/A,#N/A,#N/A,81,36,85
 
 สาธารณรัฐเช็ก,,,,https://www.nidnoitravel.com/czech-republic/,,
 ,#N/A,#N/A,#N/A,44,#N/A,#N/A
 
 เดนมาร์ก,,,,https://www.nidnoitravel.com/denmark/,,
-,#N/A,#N/A,#N/A,23,#N/A,#N/A
+,#N/A,#N/A,#N/A,26,#N/A,#N/A
 
 เบลเยียม,,,,https://www.nidnoitravel.com/belgium/,,
 ,#N/A,#N/A,#N/A,17,#N/A,#N/A
@@ -219,7 +219,7 @@
 ,#N/A,#N/A,#N/A,4,#N/A,7
 
 สแกนดิเนเวีย,,,,https://www.nidnoitravel.com/scandinavia/,,
-,#N/A,#N/A,#N/A,39,#N/A,#N/A
+,#N/A,#N/A,#N/A,42,#N/A,#N/A
 
 อาร์เมเนีย,,,,https://www.nidnoitravel.com/armenia/,,
 ,#N/A,#N/A,#N/A,2,#N/A,#N/A
@@ -243,7 +243,7 @@
 ,#N/A,#N/A,#N/A,4,#N/A,#N/A
 
 ศรีลังกา,,,,https://www.nidnoitravel.com/sri-lanka/,https://www.nexttripholiday.com/sri-lanka/,
-,#N/A,#N/A,#N/A,3,0,#N/A
+,#N/A,#N/A,#N/A,2,0,#N/A
 
 เคนยา,,,,https://www.nidnoitravel.com/kenya/,,
 ,#N/A,#N/A,#N/A,0,#N/A,#N/A
@@ -311,23 +311,20 @@
 ตรุกี,,,,,https://www.nexttripholiday.com/turkey/,
 ,#N/A,#N/A,#N/A,#N/A,20,#N/A
 
-สหรัฐอเมริกา,,,,,https://www.nexttripholiday.com/united-states/,
-,#N/A,#N/A,#N/A,#N/A,0,#N/A
+สหรัฐอเมริกา,,,,,https://www.nexttripholiday.com/united-states/,https://tourpro.co/united-states/
+,#N/A,#N/A,#N/A,#N/A,0,2
 
 แคนนาดา,,,,,https://www.nexttripholiday.com/canada,
 ,#N/A,#N/A,#N/A,#N/A,1,#N/A
 
-อังกฤษ,https://tourpro.co/england/,,,,,,
-,#N/A,#N/A,#N/A,#N/A,#N/A,20
-
 ยุโรปตะวันออก,,,,,,https://tourpro.co/east-europe/
-,#N/A,#N/A,#N/A,#N/A,#N/A,104
+,#N/A,#N/A,#N/A,#N/A,#N/A,108
 
 โรมาเนีย,,,,,,https://tourpro.co/romania/
 ,#N/A,#N/A,#N/A,#N/A,#N/A,0
 
 สแกนดิเนเวีย/บอลติค,,,,,,https://tourpro.co/scandinavia-baltic/
-,#N/A,#N/A,#N/A,#N/A,#N/A,1865
+,#N/A,#N/A,#N/A,#N/A,#N/A,1917
 
 สก๊อตเเลนด์,,,,,,https://tourpro.co/scotland/
 ,#N/A,#N/A,#N/A,#N/A,#N/A,5
@@ -341,9 +338,6 @@
 บัลแกเรีย,,,,,,https://tourpro.co/bulgaria/
 ,#N/A,#N/A,#N/A,#N/A,#N/A,0
 
-สหรัฐอเมริกา,https://tourpro.co/united-states/,,,,,,
-,#N/A,#N/A,#N/A,#N/A,#N/A,2
-
 แคนาดา,,,,,,https://tourpro.co/canada/
 ,#N/A,#N/A,#N/A,#N/A,#N/A,7
 
@@ -351,7 +345,7 @@
 ,#N/A,#N/A,#N/A,#N/A,#N/A,1
 
 ตุรเคีย,,,,,,https://tourpro.co/turkiye/
-,#N/A,#N/A,#N/A,#N/A,#N/A,36
+,#N/A,#N/A,#N/A,#N/A,#N/A,38
 
 คิวบา,,,,,,https://tourpro.co/cuba/
 ,#N/A,#N/A,#N/A,#N/A,#N/A,2

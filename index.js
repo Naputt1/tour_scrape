@@ -87,7 +87,7 @@ async function mushroomFunc(objRef, filePath) {
 }
 
 async function mushroomChangePage(temp) {
-  return new Promise(async (resolve) => {
+  try {
     const bRedirected = await page.evaluate(
       (colIndex, index) => {
         const countriesWrapper = document
@@ -103,8 +103,12 @@ async function mushroomChangePage(temp) {
       mushroomIndex
     );
     mushroomIndex++;
-    resolve(bRedirected);
-  });
+    return bRedirected;
+  }catch(e){
+    console.error(e);
+    await wait(WAIT_PER_PAGE);
+    await mushroomChangePage(temp);
+  };
 }
 
 async function uniThaiFunc(uniThai, filePath) {
@@ -180,7 +184,7 @@ let uniThaiRowIndex = 0;
 let uniThaiSubIndex = 0;
 
 async function unithaiChangePage() {
-  return new Promise(async (resolve) => {
+  try {
     let bRedirected = await page.evaluate(
       (rowIndex, subIndex) => {
         const wrapper = document.querySelector(
@@ -208,8 +212,12 @@ async function unithaiChangePage() {
     } else {
       uniThaiSubIndex++;
     }
-    resolve(bRedirected);
-  });
+    return bRedirected;
+  }catch(e){
+    console.error(e);
+    await wait(WAIT_PER_PAGE);
+    return await unithaiChangePage();
+  };
 }
 
 async function thaiTravelCenterFunc(thaiTravelCenter, filePath) {
@@ -304,8 +312,8 @@ async function thaiTravelCenterFunc(thaiTravelCenter, filePath) {
 let thaiTravelIndex = 0;
 
 async function thaiTravelCenterGetNextUrl() {
-  return new Promise((resolve) => {
-    const url = page.evaluate(async (index) => {
+  try{
+    const url = await page.evaluate(async (index) => {
       const courntries = document.querySelectorAll(
         "li.outbound-tour.outbound-tour-new"
       );
@@ -317,8 +325,12 @@ async function thaiTravelCenterGetNextUrl() {
     }, thaiTravelIndex);
 
     thaiTravelIndex++;
-    resolve(url);
-  });
+    return url;
+  }catch(e){
+    console.error(e);
+    await wait(WAIT_PER_PAGE);
+    return thaiTravelCenterGetNextUrl();
+  };
 }
 
 async function nidNoiFunc(nidNoi, filePath) {
@@ -359,7 +371,7 @@ let nidnoiRowIndex = 0;
 let nidNoiIndex = 0;
 
 async function nidNoiGetNextUrl() {
-  return new Promise(async (resolve) => {
+  try{
     let bRedirected = await page.evaluate((rowIndex) => {
       const wrapper = document.querySelector(
         "ul.wow-main-menu__list-menu-1.uk-grid-small.uk-grid"
@@ -454,8 +466,12 @@ async function nidNoiGetNextUrl() {
 
       nidNoiIndex++;
     }
-    resolve(bRedirected);
-  });
+    return bRedirected;
+  }catch (e){
+    console.error(e);
+    await wait(WAIT_PER_PAGE)
+    return await nidNoiGetNextUrl();
+  };
 }
 
 async function nextTripHolidayFunc(nextTripHoliday, filePath) {
@@ -492,7 +508,7 @@ let nextTripHolidayRowIndex = 0;
 let nextTripHolidaySubIndex = 0;
 
 async function nextTripHolidayGetNextUrl() {
-  return new Promise(async (resolve) => {
+  try{
     let [bRedirected, link] = await page.evaluate(
       (rowIndex, subIndex) => {
         const wrapper = document.querySelector(
@@ -527,8 +543,12 @@ async function nextTripHolidayGetNextUrl() {
       nextTripHolidaySubIndex++;
       await redirectPage(page, link)
     }
-    resolve([bRedirected, link]);
-  });
+    return [bRedirected, link];
+  }catch (e){
+    console.error(e);
+    await wait(WAIT_PER_PAGE);
+    return await nextTripHolidayGetNextUrl();
+  };
 }
 
 async function tourProFunc(tourPro, filePath) {
@@ -565,7 +585,7 @@ let tourProRowIndex = 0;
 let tourProSubIndex = 0;
 
 async function tourProGetNextUrl() {
-  return new Promise(async (resolve) => {
+  try{
     let result = await page.evaluate(
       (rowIndex, subIndex) => {
         const row = document.querySelector(
@@ -573,7 +593,7 @@ async function tourProGetNextUrl() {
         ).children;
         console.log(row.length, rowIndex, row.length - 2 <= rowIndex);
         if (row.length <= rowIndex) {
-          return false;
+          return [false, null];
         }
 
         console.log("courntries");
@@ -600,19 +620,23 @@ async function tourProGetNextUrl() {
       await wait(WAIT_PER_PAGE);
       tourProRowIndex++;
       tourProSubIndex = 0;
-      result[0] = await tourProGetNextUrl();
+      result = await tourProGetNextUrl();
     } else {
       tourProSubIndex++;
       await redirectPage(page, result[1]);
     }
     console.log(result);
-    resolve(result);
-  });
+    return result;
+  }catch(e){
+    console.error(e);
+    await wait(WAIT_PER_PAGE);
+    return await tourProGetNextUrl();
+  }  
 }
 
 async function getData(filePath, func, objRef) {
   return new Promise(async (resolve) => {
-    await fs.access(filePath, fs.constants.F_OK, async (err) => {
+    fs.access(filePath, fs.constants.F_OK, async (err) => {
       if (err) {
         await func(objRef, filePath);
         console.log(filePath, objRef);
@@ -703,7 +727,7 @@ const main = async () => {
 
     await saveAsJson(data, "temp.json");
 
-    console.log(data);
+    // console.log(data);
 
 
     const tour = [
@@ -738,7 +762,7 @@ const main = async () => {
       tour.push([]);
     });
 
-    console.log(tour);
+    // console.log(tour);
 
     await saveAsJson(tour, "output.json");
 

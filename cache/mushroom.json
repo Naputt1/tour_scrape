@@ -1,34 +1,34 @@
 {
   "ญี่ปุ่น": {
-    "amount": 346,
+    "amount": 361,
     "link": "https://www.mushroomtravel.com/tour/outbound/japan"
   },
   "เกาหลี": {
-    "amount": 58,
+    "amount": 52,
     "link": "https://www.mushroomtravel.com/tour/outbound/korea"
   },
   "ฮ่องกง": {
-    "amount": 105,
+    "amount": 114,
     "link": "https://www.mushroomtravel.com/tour/outbound/hong-kong"
   },
   "มาเก๊า": {
-    "amount": 17,
+    "amount": 21,
     "link": "https://www.mushroomtravel.com/tour/outbound/macau"
   },
   "จีน": {
-    "amount": 194,
+    "amount": 204,
     "link": "https://www.mushroomtravel.com/tour/outbound/china"
   },
   "ไต้หวัน": {
-    "amount": 72,
+    "amount": 78,
     "link": "https://www.mushroomtravel.com/tour/outbound/taiwan"
   },
   "เวียดนาม": {
-    "amount": 136,
+    "amount": 138,
     "link": "https://www.mushroomtravel.com/tour/outbound/vietnam"
   },
   "พม่า": {
-    "amount": 29,
+    "amount": 32,
     "link": "https://www.mushroomtravel.com/tour/outbound/myanmar"
   },
   "สิงคโปร์": {
@@ -40,7 +40,7 @@
     "link": "https://www.mushroomtravel.com/tour/outbound/india"
   },
   "ลาว": {
-    "amount": 8,
+    "amount": 9,
     "link": "https://www.mushroomtravel.com/tour/outbound/laos"
   },
   "บาหลี": {
@@ -52,11 +52,11 @@
     "link": "https://www.mushroomtravel.com/tour/outbound/malaysia"
   },
   "กัมพูชา": {
-    "amount": 1,
+    "amount": 2,
     "link": "https://www.mushroomtravel.com/tour/outbound/cambodia"
   },
   "ดูไบ": {
-    "amount": 4,
+    "amount": 5,
     "link": "https://www.mushroomtravel.com/tour/outbound/dubai"
   },
   "ภูฏาน": {
@@ -68,7 +68,7 @@
     "link": "https://www.mushroomtravel.com/tour/outbound/nepal"
   },
   "มองโกเลีย": {
-    "amount": 0,
+    "amount": 1,
     "link": "https://www.mushroomtravel.com/tour/outbound/mongolia"
   },
   "ฟิลิปปินส์": {

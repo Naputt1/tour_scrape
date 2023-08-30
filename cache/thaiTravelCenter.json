@@ -1,10 +1,10 @@
 {
   "ญี่ปุ่น": {
-    "amount": 279,
+    "amount": 10,
     "link": "https://www.thaitravelcenter.com/japantour/"
   },
   "ยุโรป": {
-    "amount": 199,
+    "amount": 200,
     "link": "https://www.thaitravelcenter.com/europetour/"
   },
   "จอร์เจีย": {
@@ -12,11 +12,11 @@
     "link": "https://www.thaitravelcenter.com/georgiatour/"
   },
   "เกาหลี": {
-    "amount": 30,
+    "amount": 31,
     "link": "https://www.thaitravelcenter.com/koreatour/"
   },
   "ไต้หวัน": {
-    "amount": 53,
+    "amount": 54,
     "link": "https://www.thaitravelcenter.com/taiwantour/"
   },
   "พม่า": {
@@ -24,7 +24,7 @@
     "link": "https://www.thaitravelcenter.com/myanmartour/"
   },
   "เวียดนาม": {
-    "amount": 116,
+    "amount": 115,
     "link": "https://www.thaitravelcenter.com/vietnamtour/"
   },
   "จีน": {
@@ -64,11 +64,11 @@
     "link": "https://www.thaitravelcenter.com/malaysiatour/"
   },
   "ฮ่องกง": {
-    "amount": 94,
+    "amount": 90,
     "link": "https://www.thaitravelcenter.com/hongkongtour/"
   },
   "ตะวันออกกลาง": {
-    "amount": 14,
+    "amount": 15,
     "link": "https://www.thaitravelcenter.com/middleeasttour/"
   },
   "ลาว": {
