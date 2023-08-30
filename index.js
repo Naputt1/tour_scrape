@@ -68,18 +68,22 @@ async function mushroomFunc(objRef, filePath) {
   for (let i = 1; i < 4; i++) {
     let link = await mushroomChangePage(i);
     while (link) {
-      await redirectPage(page, link);
-      await wait(WAIT_PER_PAGE);
+      try{
+        await redirectPage(page, link);
+        await wait(WAIT_PER_PAGE);
 
-      const result = await page.evaluate(() => {
-        const data = document
-          .querySelector(".section-content")
-          .querySelector("h1.title").innerText;
-        return data.match(/(.+)\s+\((\d+)\)/).slice(1);
-      });
+        const result = await page.evaluate(() => {
+          const data = document
+            .querySelector(".section-content")
+            .querySelector("h1.title").innerText;
+          return data.match(/(.+)\s+\((\d+)\)/).slice(1);
+        });
 
-      objRef[result[0].replace("ทัวร์", "")] = {"amount":parseInt(result[1]), "link":link};
-      link = await mushroomChangePage(i);
+        objRef[result[0].replace("ทัวร์", "")] = {"amount":parseInt(result[1]), "link":link};
+        link = await mushroomChangePage(i);
+      }catch(e){
+        console.error(e);
+      }
     }
   }
 
@@ -117,6 +121,7 @@ async function uniThaiFunc(uniThai, filePath) {
   let link = await unithaiChangePage();
 
   while (link) {
+    try{
     await redirectPage(page, link)
     await wait(WAIT_PER_PAGE);
 
@@ -175,6 +180,9 @@ async function uniThaiFunc(uniThai, filePath) {
     });
 
     link = await unithaiChangePage();
+    }catch(e){
+      console.error(e)
+    }
   }
 
   saveAsJson(uniThai, filePath);
@@ -229,6 +237,7 @@ async function thaiTravelCenterFunc(thaiTravelCenter, filePath) {
 
   try{
   while (newurl) {
+    try{
     console.log(newurl);
     await redirectPage(secondPage, newurl);
     await wait(WAIT_PER_PAGE);
@@ -302,6 +311,9 @@ async function thaiTravelCenterFunc(thaiTravelCenter, filePath) {
     thaiTravelCenter[courntry] = {"amount":result, "link":newurl};
 
     newurl = await thaiTravelCenterGetNextUrl();
+    }catch(e){
+      console.error(e);
+    }
   }}finally{
     await secondPage.close();
   }
@@ -339,6 +351,7 @@ async function nidNoiFunc(nidNoi, filePath) {
   let [country, link] = await nidNoiGetNextUrl();
 
   while (country) {
+    try{
     await wait(WAIT_PER_PAGE);
 
     console.log("next");
@@ -362,6 +375,9 @@ async function nidNoiFunc(nidNoi, filePath) {
     console.log("after");
 
     [country, link] = await nidNoiGetNextUrl();
+    }catch(e){
+      console.error(e);
+    }
   }
 
   saveAsJson(nidNoi, filePath);
@@ -480,6 +496,7 @@ async function nextTripHolidayFunc(nextTripHoliday, filePath) {
   let [courntry, link] = await nextTripHolidayGetNextUrl();
 
   while (courntry) {
+    try{
     await wait(WAIT_PER_PAGE);
 
     let num = 0;
@@ -499,6 +516,9 @@ async function nextTripHolidayFunc(nextTripHoliday, filePath) {
     nextTripHoliday[courntry] = {"amount":num, "link":link};
 
     [courntry, link] = await nextTripHolidayGetNextUrl();
+    }catch(e){
+      console.error(e);
+    }
   }
 
   saveAsJson(nextTripHoliday, filePath);
@@ -557,6 +577,7 @@ async function tourProFunc(tourPro, filePath) {
   let [country, link] = await tourProGetNextUrl();
 
   while (country) {
+    try{
     await wait(WAIT_PER_PAGE);
 
     let num = 0;
@@ -576,6 +597,9 @@ async function tourProFunc(tourPro, filePath) {
     tourPro[country] = {"amount":num, "link":link};
 
     [country, link] = await tourProGetNextUrl();
+    }catch(e){
+      console.error(e);
+    }
   }
 
   saveAsJson(tourPro, filePath);
